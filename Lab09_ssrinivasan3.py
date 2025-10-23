@@ -10,8 +10,8 @@ from coin import Coin
 
 def main ():
     print("Welcome to the coin toss game! Each player has 20 coins.")
-    player_1 = coin()
-    player_2 = coin()
+    player_1 = Coin()
+    player_2 = Coin()
     play = input("Do you wish to play: Y / N.")
 
     while play == 'y':
