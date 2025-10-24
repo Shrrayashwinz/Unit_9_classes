@@ -13,7 +13,7 @@ class Coin:
       
     
     def toss(self):
-        self.__sideup = 'Heads' if random.randit(0,1) == 0 else 'Tails'
+        self.__sideup = 'Heads' if random.randint(0,1) == 0 else 'Tails'
     
     def get_sideup(self):
         return self.__sideup
