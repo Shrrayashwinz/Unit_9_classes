@@ -12,7 +12,7 @@ def main():
     player_1 = Coin()
     player_2 = Coin()
 
-    play = input("Do you want to play? Y / N ").strip().lower()
+    play = input("Do you want to play? Y / N: ").strip().lower()
 
     while play == 'y':
         player_1.toss()
